@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<edmx:Edmx Version="3.0" xmlns:edmx="http://schemas.microsoft.com/ado/2009/11/edmx">
+ <!-- EF Designer content (DO NOT EDIT MANUALLY BELOW HERE) -->
+  <edmx:Designer xmlns="http://schemas.microsoft.com/ado/2009/11/edmx">
+    <!-- Diagram content (shape and connector positions) -->
+    <edmx:Diagrams>
+      <Diagram DiagramId="57ae9d9d7365446989dd52af8cf7f866" Name="Diagram1">
+        <EntityTypeShape EntityType="Med_lab_20Model.Accont_insurance" Width="1.5" PointX="7.5" PointY="5" IsExpanded="true" />
+        <EntityTypeShape EntityType="Med_lab_20Model.Accountants" Width="1.5" PointX="5.25" PointY="5" IsExpanded="true" />
+        <EntityTypeShape EntityType="Med_lab_20Model.Admins" Width="1.5" PointX="5.25" PointY="7.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="Med_lab_20Model.Analyzer" Width="1.5" PointX="7.5" PointY="1.5" IsExpanded="true" />
+        <EntityTypeShape EntityType="Med_lab_20Model.History_of_analyzers" Width="1.5" PointX="9.75" PointY="4.125" IsExpanded="true" />
+        <EntityTypeShape EntityType="Med_lab_20Model.Insurance_company" Width="1.5" PointX="5.25" PointY="0.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="Med_lab_20Model.Laboratorian" Width="1.5" PointX="5.25" PointY="10.125" IsExpanded="true" />
+        <EntityTypeShape EntityType="Med_lab_20Model.Order" Width="1.5" PointX="7.5" PointY="14.25" IsExpanded="true" />
+        <EntityTypeShape EntityType="Med_lab_20Model.Package_of_services" Width="1.5" PointX="9.75" PointY="10.375" IsExpanded="true" />
+        <EntityTypeShape EntityType="Med_lab_20Model.Patient" Width="1.5" PointX="12.75" PointY="6.875" IsExpanded="true" />
+        <EntityTypeShape EntityType="Med_lab_20Model.Roles" Width="1.5" PointX="0.75" PointY="9.375" IsExpanded="true" />
+        <EntityTypeShape EntityType="Med_lab_20Model.Services" Width="1.5" PointX="7.5" PointY="10.125" IsExpanded="true" />
+        <EntityTypeShape EntityType="Med_lab_20Model.Services_rendered" Width="1.5" PointX="9.75" PointY="7.25" IsExpanded="true" />
+        <EntityTypeShape EntityType="Med_lab_20Model.Session_history" Width="1.5" PointX="5.25" PointY="13.375" IsExpanded="true" />
+        <EntityTypeShape EntityType="Med_lab_20Model.sysdiagrams" Width="1.5" PointX="0.75" PointY="2.625" IsExpanded="true" />
+        <EntityTypeShape EntityType="Med_lab_20Model.Users" Width="1.5" PointX="3" PointY="8.875" IsExpanded="true" />
+        <AssociationConnector Association="Med_lab_20Model.FK_Accont_insurance_Accountants" ManuallyRouted="false" />
+        <AssociationConnector Association="Med_lab_20Model.FK_Accont_insurance_Insurance_company" ManuallyRouted="false" />
+        <AssociationConnector Association="Med_lab_20Model.FK_Accountants_Users" ManuallyRouted="false" />
+        <AssociationConnector Association="Med_lab_20Model.FK_Admins_Users" ManuallyRouted="false" />
+        <AssociationConnector Association="Med_lab_20Model.FK_History_of_analyzers_Analyzer1" ManuallyRouted="false" />
+        <AssociationConnector Association="Med_lab_20Model.FK_Services_rendered_Analyzer" ManuallyRouted="false" />
+        <AssociationConnector Association="Med_lab_20Model.FK_Patient_Insurance_company" ManuallyRouted="false" />
+        <AssociationConnector Association="Med_lab_20Model.FK_Laboratorian_Users" ManuallyRouted="false" />
+        <AssociationConnector Association="Med_lab_20Model.FK_Services_rendered_Laboratorian" ManuallyRouted="false" />
+        <AssociationConnector Association="Med_lab_20Model.FK_Package_of_services_Order" ManuallyRouted="false" />
+        <AssociationConnector Association="Med_lab_20Model.FK_Package_of_services_Services" ManuallyRouted="false" />
+        <AssociationConnector Association="Med_lab_20Model.FK_Users_Roles" ManuallyRouted="false" />
+        <AssociationConnector Association="Med_lab_20Model.FK_Services_rendered_Services" ManuallyRouted="false" />
+        <AssociationConnector Association="Med_lab_20Model.FK_Session_history_Users" ManuallyRouted="false" />
+        <AssociationConnector Association="Med_lab_20Model.Laboratorian_services" ManuallyRouted="false" />
+        <AssociationConnector Association="Med_lab_20Model.Patient_order" ManuallyRouted="false" />
+      </Diagram>
+    </edmx:Diagrams>
+  </edmx:Designer>
+</edmx:Edmx>
